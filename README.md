@@ -16,10 +16,11 @@ https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
 └──[Dataset](https://github.com/leta199/Linear-Regression/blob/main/decile_cancel_to_trade_stock.csv) 
 
 
-
-"This is an educational implementation of linear regression for learning purposes — not intended for production use."
-
 ## USEFUL EDUCATIONAL RESOURCES    
 (Winsorized mean)[https://www.datacamp.com/tutorial/winsorized-mean ]   
 (Dealing with outliers)[https://www.analyticsvidhya.com/blog/2022/09/dealing-with-outliers-using-the-iqr-method/]
 
+"This is an educational implementation of linear regression for learning purposes — not intended for production use."
+
+## AUTHORS 
+(leta199)[https://github.com/leta199]
