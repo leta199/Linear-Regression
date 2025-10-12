@@ -2,7 +2,8 @@
 Linear regression created from scratch and comparing my implementation to that of popular packages like scikit -learn  
 
 ## METHOD 
-### Data 
+### Data  
+https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
 ### Linear regression model 
 
 
@@ -17,3 +18,8 @@ Linear regression created from scratch and comparing my implementation to that o
 
 
 "This is an educational implementation of linear regression for learning purposes — not intended for production use."
+
+## USEFUL EDUCATIONAL RESOURCES    
+(Winsorized mean)[https://www.datacamp.com/tutorial/winsorized-mean ]   
+(Dealing with outliers)[https://www.analyticsvidhya.com/blog/2022/09/dealing-with-outliers-using-the-iqr-method/]
+
