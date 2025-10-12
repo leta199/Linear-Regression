@@ -1,6 +1,10 @@
 # Linear-Regression
 Linear regression created from scratch and comparing my implementation to that of popular packages like scikit -learn  
 
+## METHOD 
+### Data 
+### Linear regression model 
+
 
  ## PROJECT STRUCTURE      
 [Linear Regression](https://github.com/leta199/Linear-Regression)/  
