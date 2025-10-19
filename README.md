@@ -2,8 +2,11 @@
 Linear regression created from scratch and comparing my implementation to that of popular packages like scikit -learn  
 
 
-## SOFTWARE
-IDE: VScode   
+## HOW IT'S MADE 
+
+Languages used: Python verion (3.13.2)  
+Packages and modules: numpy, pandas, matplotlib, scikit-learn  
+Environment: VScode  
 
 ## METHOD 
 ### Data  
