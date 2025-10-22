@@ -31,14 +31,15 @@ If they are not numeric, indexeable or iteratable like pd.Dataframes they are co
 
 Return appropriate errors if any data is entered  in the incorrect format like singular value.
 
- **Numerical optimisation**
-The actual group of  methods that calculate the optimal weight and bias of the data.  
+ **Numerical optimisation**  
+ The actual group of  methods that calculate the optimal weight and bias of the data.  
 `preditc_y()` - an internal method to caluculate the predicted y value in the model.  
 `partial_w()` - calculates the weight that minimises our partial derivative of error in regard to the weight to get the global minimum.
 `partial_b()` -calculates the bias that minimises our partial derivative of error in regard to the bias to get the global minimum.
 `optimise()` - uses the number of epochs and iterates over that many epochs while taking steps towrds global minimum in regard to weight and bias at once in the sixe of the  learning rate. Also prints these weights and biases every 10 epochs to see how the optimisation is progressing 
 
 **Displaying model internals**   
+Displays stored values in the model that end users may interested in seeing.   
 `residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display tp users.  
 `display_x()` ,`display_y()` - methods that display the entered x and y data as lists from the class  
 `display_predict()` - displays the predicted y values based on our optimised weight and bias i.e on line of best fit. 
