@@ -43,11 +43,11 @@ Displays stored values in the model that end users may interested in seeing.
 `residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display to users.  
 `display_x()` ,`display_y()` - methods that display the entered x and y data as lists from the class  
 `display_predict()` - displays the predicted y values based on our optimised weight and bias i.e on line of best fit. 
-`display_weight()` - displays the optimised weight the model calculated with a simple `print()` statement.
+`display_weight()` - displays the optimised weight the model calculated with a simple `print()` statement.  
 `display_bias()` - displays the optimised bias calculated via gradient descent.
 
-**Evaluation metrics** 
-`mse()`- calculates and displays the mean square error of the model by calculatin total sqaure error and dividing by the number of data points to get the average.
+**Evaluation metrics**   
+`mse()`- calculates and displays the mean square error of the model by calculatin total sqaure error and dividing by the number of data points to get the average.  
 `rsquared()` - caluclates the average of the input data points and subtracts this from the predicted y to get sum of squares, then calculated square error to final calculate the rsquared by dividng the two and subtracting them from 1
 
 
