@@ -15,14 +15,17 @@ https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
 
 
  ## PROJECT STRUCTURE      
-[Linear Regression](https://github.com/leta199/Linear-Regression)/  
-├── [Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)    
-         ├──[Linear regression Finance](https://github.com/leta199/Linear-Regression/blob/main/finance_application/Linear_Regression_Finance.ipynb)  
-         ├──[Finance data](https://github.com/leta199/Linear-Regression/blob/main/finance_application/finance_data.csv)    
-├── [Model](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)      
-     └──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)    
-└──[License](https://github.com/leta199/Linear-Regression/blob/main/LICENSE)   
-└── [README](https://github.com/leta199/Linear-Regression/blob/main/README.md)  
+[Linear-Regression](https://github.com/leta199/Linear-Regression)  
+├──[Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)  
+│ ├──[Linear Regression Finance](https://github.com/leta199/Linear-Regression/blob/main/finance_application/Linear_Regression_Finance.ipynb)   
+│ └──[Finance data](https://github.com/leta199/Linear-Regression/blob/main/finance_application/finance_data.csv)  
+│  
+├──[Model](https://github.com/leta199/Linear-Regression/tree/main/model)  
+│ ├──[Linear Regression (core model)](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)  
+│ └──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)  
+│  
+├──[License](https://github.com/leta199/Linear-Regression/blob/main/LICENSE)  
+└──[README](https://github.com/leta199/Linear-Regression/blob/main/README.md)
 
 
 ## USEFUL EDUCATIONAL RESOURCES    
