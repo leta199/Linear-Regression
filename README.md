@@ -47,9 +47,30 @@ Displays stored values in the model that end users may interested in seeing.
 `display_bias()` - displays the optimised bias calculated via gradient descent.
 
 **Evaluation metrics**   
-`mse()`- calculates and displays the mean square error of the model by calculatin total sqaure error and dividing by the number of data points to get the average.  
+`mse()`- calculates and displays the mean square error of the model by calculating total sqaure error and dividing by the number of data points to get the average.  
 `rsquared()` - caluclates the average of the input data points and subtracts this from the predicted y to get sum of squares, then calculated square error to final calculate the rsquared by dividng the two and subtracting them from 1
 
+## COMPARISON TO SCIKIT-LEARN
+In an effort to see the accuracy of my model and how well numerical optimisation via for loops works for linear regression.  
+I began by importing `scikit-learn` as sk and then from the scikit-learn package importing one of their linear models LinearRegression as lr.  
+Use `np.set_seed()` to set a seed for reproducibility of the comparison.  
+Generate random linear data with random noise to compare the two models to each other.  
+Utilised my model with an appropraite learning rate and number of epochs.  
+Assigns the models weight, bias, mean squares error and R^2 to the variables:  
+1) `mine_mse`, `mine_weight`, `mine_bias` , `mine_rsquared`
+
+Extracted the values from the input data synthetic data using the `.values()` method.  
+assigned these values to the training data set.  
+Imported the model as `lr()`.  
+Fit the model to the training data using the `fit()` method to generate model parameters.  
+Assinged the rsquared to the variable `rsquared_train` on training data using the `.score()` method.  
+Assigned the weight and bias to the variables `sk_coef` and `sk_intercept`.   
+Generated the mean square error using the `mean_squared_error()` function and assigned mse to the variable `mse_train`
+
+#### Dataframe      
+Created a dataframe to compare the my model to that of scikit-learn.  
+-Displayed the key metrics, namely: mean squared error and R^2   
+-Displayed the calculated weight and bias from each model 
 
 ### Data  
 https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
