@@ -9,7 +9,7 @@ Packages and modules: numpy, pandas, matplotlib, scikit-learn
 Environment: VScode  
 
 ## METHOD 
-### CLASS CREATION  
+### LINEAR REGRESSION MODEL 
 To create this model I started by creating a class in Python to store the entire model logic inclusing the model's attributes and methods.  
 These were split up into the main areas of:
 - Initialisation of the class and arguments
@@ -55,7 +55,7 @@ Displays stored values in the model that end users may interested in seeing.
 ### Data  
 https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
 This data was collected from the SEC  redarding data about stock prices grouped by decile and market capitalisation. I made sure to focus primarily 
-### Linear regression model 
+
 
 
  ## PROJECT STRUCTURE      
