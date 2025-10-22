@@ -18,7 +18,7 @@ These were split up into the main areas of:
 - Displaying key internals of the model such as predictions
 - Evaluation metrics common to linear regression such as Mean squared error
 
-**Initialisation**
+**Initialisation**  
 I initialised the class using the intialiser  `__init__`  as well as defined the arguments of the class as:
 1) learning rate
 2) number of epochs
@@ -36,7 +36,14 @@ The actual group of  methods that calculate the optimal weight and bias of the d
 `preditc_y()` - an internal method to caluculate the predicted y value in the model.  
 `partial_w()` - calculates the weight that minimises our partial derivative of error in regard to the weight to get the global minimum.
 `partial_b()` -calculates the bias that minimises our partial derivative of error in regard to the bias to get the global minimum.
-`optimise()` - uses the number of epochs and iterates over that many epochs while taking steps towrds global minimum in regard to weight and bias at once in the sixe of the  learning rate
+`optimise()` - uses the number of epochs and iterates over that many epochs while taking steps towrds global minimum in regard to weight and bias at once in the sixe of the  learning rate. Also prints these weights and biases every 10 epochs to see how the optimisation is progressing 
+
+**Displaying model internals**   
+`residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display tp users.  
+`display_x()` ,`display_y()` - methods that display the entered x and y data as lists from the class  
+`display_predict()` - displays the predicted y values based on our optimised weight and bias i.e on line of best fit. 
+
+
 
 
 
