@@ -16,11 +16,13 @@ https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
 
  ## PROJECT STRUCTURE      
 [Linear Regression](https://github.com/leta199/Linear-Regression)/  
-├── [License](https://github.com/leta199/Linear-Regression/blob/main/LICENSE)  
-├── [Linear regression pdf](https://github.com/leta199/Linear-Regression/blob/main/Linear%20regression.pdf)    
-├── [Linear regression notebook](https://github.com/leta199/Linear-Regression/blob/main/Linear_Regression.ipynb)   
-├── [README](https://github.com/leta199/Linear-Regression/blob/main/README.md)  
-└──[Dataset](https://github.com/leta199/Linear-Regression/blob/main/decile_cancel_to_trade_stock.csv) 
+├── [Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)    
+         ├──[Linear regression Finance](https://github.com/leta199/Linear-Regression/blob/main/finance_application/Linear_Regression_Finance.ipynb)  
+         ├──[Finance data](https://github.com/leta199/Linear-Regression/blob/main/finance_application/finance_data.csv)    
+├── [Model](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)      
+     └──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)    
+└──[License](https://github.com/leta199/Linear-Regression/blob/main/LICENSE)   
+└── [README](https://github.com/leta199/Linear-Regression/blob/main/README.md)  
 
 
 ## USEFUL EDUCATIONAL RESOURCES    
