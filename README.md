@@ -72,6 +72,9 @@ Created a dataframe to compare the my model to that of scikit-learn.
 -Displayed the key metrics, namely: mean squared error and R^2   
 -Displayed the calculated weight and bias from each model 
 
+## FINANCE APPLICATION 
+
+
 ### Data  
 https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
 This data was collected from the SEC  redarding data about stock prices grouped by decile and market capitalisation. I made sure to focus primarily 
@@ -97,6 +100,7 @@ This data was collected from the SEC  redarding data about stock prices grouped 
 [Dealing with outliers](https://www.analyticsvidhya.com/blog/2022/09/dealing-with-outliers-using-the-iqr-method/)
 
 "This is an educational implementation of linear regression for learning purposes — not intended for production use."
+
 ## LOOKING TO THE FUTURE  
 1) I wish to extend my model to be able to work on all kinds of interatables like pandas series and numpy arrays.
 2) Add methods to adjust learning rate and number of epochs.
