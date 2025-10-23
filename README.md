@@ -90,7 +90,7 @@ This data was collected from the SEC  redarding data about stock prices grouped 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
 ├──[Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)  
-│  ├──[Linear Regression Finance](https://github.com/leta199/Linear-Regression/blob/main/finance_application/Linear_Regression_Finance.ipynb)   
+│  ├──[Linear Regression Finance Application](https://github.com/leta199/Linear-Regression/blob/main/finance_application/Linear_Regression_Finance.ipynb)   
 │  └──[Finance data](https://github.com/leta199/Linear-Regression/blob/main/finance_application/finance_data.csv)  
 │  
 ├──[Model](https://github.com/leta199/Linear-Regression/tree/main/model)  
@@ -103,7 +103,7 @@ This data was collected from the SEC  redarding data about stock prices grouped 
 
 ## USEFUL EDUCATIONAL RESOURCES    
 [Winsorized mean](https://www.datacamp.com/tutorial/winsorized-mean)   
-[Dealing with outliers](https://www.analyticsvidhya.com/blog/2022/09/dealing-with-outliers-using-the-iqr-method/)
+[Dealing with outliers](https://www.analyticsvidhya.com/blog/2022/09/dealing-with-outliers-using-the-iqr-method/)  
 [Linear regression from scratch](https://youtu.be/VmbA0pi2cRQ?si=DLD_hFtu1TFj-SMf)
 
 "This is an educational implementation of linear regression for learning purposes — not intended for production use."
