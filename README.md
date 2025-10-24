@@ -79,13 +79,13 @@ Created a dataframe to compare the my model to that of scikit-learn.
 -Displayed the calculated weight and bias from each model 
 
 ## FINANCE APPLICATION 
-To identify how well my model works, it was used on real life data from the Securitites and Exchange Commission. The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups that are added together.  
+To identify how well my model works, it was used on real life data from the Securitites and Exchange Commission. 
 
 ### Data  
 https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
 This data was collected from the SEC  redarding data about stock prices grouped by decile and market capitalisation. I made sure to focus primarily 
 
-
+The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups that are added together.  Each observation is a time-series organisation of of each group of market capitalisation. 
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
