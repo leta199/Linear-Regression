@@ -79,7 +79,7 @@ Created a dataframe to compare the my model to that of scikit-learn.
 -Displayed the calculated weight and bias from each model 
 
 ## FINANCE APPLICATION 
-
+To identify how well my model works, it was used on real life data from the Securitites and Exchange Commission. 
 
 ### Data  
 https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
