@@ -83,9 +83,13 @@ To identify how well my model works, it was used on real life data from the Secu
 
 ### Data  
 https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
-This data was collected from the SEC  redarding data about stock prices grouped by decile and market capitalisation. I made sure to focus primarily 
+This data was collected from the SEC  redarding data about stock prices grouped by decile and market capitalisation.
 
 The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups that are added together.  Each observation is a time-series organisation of of each group of market capitalisation. 
+
+Date- Date when the transaction takes place.  
+Market Cap 1 - 10 - This is the propotion of stocks porposed to trade that got cancelled organised Market capitalisation decile into 10 groups.  
+Price Decile 1 - 10 - Average stock price of each decile 
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
