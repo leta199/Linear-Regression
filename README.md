@@ -90,7 +90,7 @@ The main data file I utilised was the decile_cancel_to_trade csv file that aggre
 Date- Date when the transaction takes place.  
 Market Cap 1 - 10 - This is the propotion of stocks porposed to trade that got cancelled organised Market capitalisation decile into 10 groups.  
 Price Decile 1 - 10 - Average stock price of each decile from decile 1 to 10   
-Turnover 
+Turnover decile 1 - 10- 
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
