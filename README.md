@@ -78,6 +78,9 @@ Created a dataframe to compare the my model to that of scikit-learn.
 -Displayed the key metrics, namely: mean squared error and R^2   
 -Displayed the calculated weight and bias from each model 
 
+### RESIDUALS
+The reisudals from my model were plotted against the independent variable x to see the distribution of residuals.   
+The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud wuth no trend or "fan" shape.
 ## FINANCE APPLICATION 
 To identify how well my model works, it was used on real life data from the Securitites and Exchange Commission. 
 
