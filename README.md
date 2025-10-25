@@ -88,7 +88,7 @@ To identify how well my model works, it was used on real life data from the Secu
 
 ### Data  
 https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
-This data was collected from the SEC  redarding data about stock prices grouped by decile and market capitalisation.
+This data was collected from the SEC  regarding data about stock prices grouped by decile and market capitalisation.
 
 The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups that are added together.  Each observation is a time-series organisation of of each group of market capitalisation. 
 
@@ -125,6 +125,7 @@ Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for ea
 3) Add method to display evaluation metrics like R squared, Mean squared error ✅ 
 4) Add methods to display internal parameters like the learned weight and bias, residuals, predicted values  and internal values of x and y ✅
 5) Display error messages when taking in inputs using the `vectorise()` method ✅
+6) Method to plot residuals to make sure the data displays the "random cloud" we would expect from linear regression 
    
 ## AUTHORS 
 [leta199](https://github.com/leta199)
