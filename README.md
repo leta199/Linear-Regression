@@ -126,7 +126,8 @@ Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for ea
 3) Add method to display evaluation metrics like R squared, Mean squared error ✅ 
 4) Add methods to display internal parameters like the learned weight and bias, residuals, predicted values  and internal values of x and y ✅
 5) Display error messages when taking in inputs using the `vectorise()` method ✅
-6) Method to plot residuals to make sure the data displays the "random cloud" we would expect from linear regression 
+6) Method to plot residuals to make sure the data displays the "random cloud" we would expect from linear regression
+7) Method to predict dependent varaible for any value of indepednent variable entered 
    
 ## AUTHORS 
 [leta199](https://github.com/leta199)
