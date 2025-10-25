@@ -4,7 +4,7 @@ Linear regression created from scratch and comparing my implementation to that o
 
 ## HOW IT'S MADE 
 
-Languages used: Python verion (3.13.2)  
+Languages used: Python verion (3.13.5)  
 Packages and modules: numpy, pandas, matplotlib, scikit-learn  
 Environment: VScode  
 
@@ -82,6 +82,7 @@ Created a dataframe to compare the my model to that of scikit-learn.
 The residuals from my model were plotted against the independent variable x to see the distribution of residuals.   
 The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud wuth no trend or "fan" shape.  
 These are the residuals I got for the synthetic data 
+[INSERT GRAPH OF RESIDUALS]
 
 ## FINANCE APPLICATION 
 To identify how well my model works, it was used on real life data from the Securitites and Exchange Commission. 
@@ -95,7 +96,7 @@ The main data file I utilised was the decile_cancel_to_trade csv file that aggre
 Date- Date when the transaction takes place.  
 Market Cap 1 - 10 - This is the propotion of stocks porposed to trade that got cancelled organised Market capitalisation decile into 10 groups.  
 Price Decile 1 - 10 - Average stock price of each decile from decile 1 to 10   
-Turnover Decile 1 - 10 - How often  
+Turnover Decile 1 - 10 - [COME BACK FOR THIS] 
 Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for each decile across each market capitalisationm at that day as variance in stock price.
 
  ## PROJECT STRUCTURE      
