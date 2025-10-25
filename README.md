@@ -29,7 +29,7 @@ This method called `vectorise()` takes in the points to be modelled and makes su
 - Numeric, iteratable and indexable (e.g tuples, lists and np.arrays) - if so they are converted into a list
 If they are not numeric, indexeable or iteratable like pd.Dataframes they are convtrted into lists with only the values and removinf any metadata
 
-Return appropriate errors if any data is entered  in the incorrect format like singular value.
+Return appropriate errors if any data is entered  in the incorrect format like singular values or non-numeric types.
 
  **Numerical optimisation**  
  The actual group of  methods that calculate the optimal weight and bias of the data.  
