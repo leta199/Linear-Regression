@@ -85,7 +85,7 @@ These are the residuals I got for the synthetic data
 [INSERT GRAPH OF RESIDUALS]
 
 ## FINANCE APPLICATION 
-To identify how well my model works, it was used on real life data from the Securitites and Exchange Commission. 
+To identify how well the model works, it was used on real life data from the Securitites and Exchange Commission. 
 
 ### Data  
 https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile
