@@ -84,7 +84,8 @@ Created a dataframe to compare the my model to that of scikit-learn.
 The residuals from my model were plotted against the independent variable x to see the distribution of residuals.   
 The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud wuth no trend or "fan" shape.  
 These are the residuals I got for the synthetic data 
-[INSERT GRAPH OF RESIDUALS]
+
+<img width="581" height="458" alt="Image" src="https://github.com/user-attachments/assets/bc595850-a33d-499e-b5e7-d74392b7948e" />
 
 ## FINANCE APPLICATION 
 To identify how well the model works, it was used on real life data from the Securitites and Exchange Commission. 
