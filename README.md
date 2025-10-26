@@ -15,10 +15,11 @@ These were split up into the main areas of:
 - Initialisation of the class and arguments
 - Method to take in modelling data points
 - Numerical optimisation via gradient descent
-- Displaying key internals of the model such as predictions
+- Display model residuals and plot residuals 
+- Displaying key internals of the model such as weight and bias 
 - Evaluation metrics common to linear regression such as Mean squared error and R squared
 - Method to predict dependent variable 
-- [INSERT PLOTTING RESIDUALS WHEN DONE]
+
 
 **Initialisation**  
 I initialised the class using the intialiser  `__init__`  as well as defined the arguments of the class as:
