@@ -60,7 +60,10 @@ Displays stored values in the model that end users may interested in seeing.
 
 **Evaluation metrics**   
 `mse()`- calculates and displays the mean square error of the model by calculating total sqaure error and dividing by the number of data points to get the average.  
-`rsquared()` - caluclates the average of the input data points and subtracts this from the predicted y to get sum of squares, then calculated square error to final calculate the rsquared by dividng the two and subtracting them from 1
+`rsquared()` - caluclates the average of the input data points and subtracts this from the predicted y to get sum of squares, then calculated square error to final calculate the rsquared by dividng the two and subtracting them from 1  
+
+**Predictions**
+`predict()` - returns the predicted y value (independent variable) based on input x values(s). This method accepts values of x as tuples, lists, NumPy arrays, pandas Series, integers and floats. It also returns an error message if any other types are used for prediction such as pandas Dataframes. 
 
 ## COMPARISON TO SCIKIT-LEARN
 In an effort to see the accuracy of my model and how well numerical optimisation via for loops works for linear regression.    
