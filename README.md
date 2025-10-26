@@ -41,6 +41,15 @@ Return appropriate errors if any data is entered  in the incorrect format like s
 `partial_b()` -calculates the bias that minimises our partial derivative of error in regard to the bias to get the global minimum.
 `optimise()` - uses the number of epochs and iterates over that many epochs while taking steps towrds global minimum in regard to weight and bias at once in the sixe of the  learning rate. Also prints these weights and biases every 10 epochs to see how the optimisation is progressing 
 
+**Displaying Residuals and Visualising Residuals**
+`residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display to users.  
+
+`plotr_residuals()` plots residuals against the independent variable x to see the distribution of residuals.   
+The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud wuth no trend or "fan" shape.  
+These are the residuals I got for the synthetic data 
+
+<img width="581" height="458" alt="Image" src="https://github.com/user-attachments/assets/bc595850-a33d-499e-b5e7-d74392b7948e" />
+
 **Displaying model internals**   
 Displays stored values in the model that end users may interested in seeing.   
 `residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display to users.  
@@ -81,12 +90,7 @@ Created a dataframe to compare the my model to that of scikit-learn.
 -Displayed the key metrics, namely: mean squared error and R^2   
 -Displayed the calculated weight and bias from each model 
 
-### Visualising residuals
-The residuals from my model were plotted against the independent variable x to see the distribution of residuals.   
-The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud wuth no trend or "fan" shape.  
-These are the residuals I got for the synthetic data 
 
-<img width="581" height="458" alt="Image" src="https://github.com/user-attachments/assets/bc595850-a33d-499e-b5e7-d74392b7948e" />
 
 ## FINANCE APPLICATION 
 To identify how well the model works, it was used on real life data from the Securitites and Exchange Commission. 
