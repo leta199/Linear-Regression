@@ -17,7 +17,7 @@ These were split up into the main areas of:
 - Numerical optimisation via gradient descent
 - Displaying key internals of the model such as predictions
 - Evaluation metrics common to linear regression such as Mean squared error and R squared
-- [INSERT PREDICTION METHOD WHEN DONE]
+- Method to predict dependent variable 
 - [INSERT PLOTTING RESIDUALS WHEN DONE]
 
 **Initialisation**  
