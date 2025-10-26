@@ -46,13 +46,13 @@ Return appropriate errors if any data is entered  in the incorrect format like s
 
 `plot_residuals()` plots residuals against the independent variable x to see the distribution of residuals.   
 The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud with no trend or "fan" shape.    
-This is an example from synthtic data: 
+This is an example from synthetic data: 
 
 <img width="578" height="459" alt="Image" src="https://github.com/user-attachments/assets/0633fe2f-5e39-4880-bdfb-acd456d75886" />
 
 **Displaying model internals**   
 Displays stored values in the model that end users may interested in seeing.   
-`residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display to users.  
+
 `display_x()` ,`display_y()` - methods that display the entered x and y data as lists from the class  
 `display_predict()` - displays the predicted y values based on our optimised weight and bias i.e on line of best fit. 
 `display_weight()` - displays the optimised weight the model calculated with a simple `print()` statement.  
