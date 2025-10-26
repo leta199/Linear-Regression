@@ -48,7 +48,7 @@ Return appropriate errors if any data is entered  in the incorrect format like s
 The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud wuth no trend or "fan" shape.  
 These are the residuals I got for the synthetic data 
 
-<img width="581" height="458" alt="Image" src="https://github.com/user-attachments/assets/bc595850-a33d-499e-b5e7-d74392b7948e" />
+<img width="578" height="459" alt="Image" src="https://github.com/user-attachments/assets/0633fe2f-5e39-4880-bdfb-acd456d75886" />
 
 **Displaying model internals**   
 Displays stored values in the model that end users may interested in seeing.   
