@@ -44,9 +44,9 @@ Return appropriate errors if any data is entered  in the incorrect format like s
 **Displaying Residuals and Visualising Residuals**
 `residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display to users.  
 
-`plotr_residuals()` plots residuals against the independent variable x to see the distribution of residuals.   
-The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud wuth no trend or "fan" shape.  
-These are the residuals I got for the synthetic data 
+`plot_residuals()` plots residuals against the independent variable x to see the distribution of residuals.   
+The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud with no trend or "fan" shape.    
+This is an example from synthtic data: 
 
 <img width="578" height="459" alt="Image" src="https://github.com/user-attachments/assets/0633fe2f-5e39-4880-bdfb-acd456d75886" />
 
