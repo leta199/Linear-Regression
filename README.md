@@ -110,7 +110,7 @@ The main data file I utilised was the decile_cancel_to_trade csv file that aggre
 Date- Date when the transaction takes place.  
 Market Cap 1 - 10 - This is the propotion of stocks porposed to trade that got cancelled organised Market capitalisation decile into 10 groups.  
 Price Decile 1 - 10 - Average stock price of each decile from decile 1 to 10   
-Turnover Decile 1 - 10 - [COME BACK FOR THIS 
+Turnover Decile 1 - 10 - Number of stocks sold on that date 
 Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for each decile across each market capitalisationm at that day as variance in stock price.
 
  ## PROJECT STRUCTURE      
