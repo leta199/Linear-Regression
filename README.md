@@ -46,7 +46,7 @@ Return appropriate errors if any data is entered  in the incorrect format like s
 
 `plot_residuals()` plots residuals against the independent variable x to see the distribution of residuals.   
 The expected residuals for a good linear model with approporaite data that fits all the assumptions is a random cloud with no trend or "fan" shape.    
-This is an example from synthetic data: 
+An example from synthetic data: 
 
 <img width="578" height="459" alt="Image" src="https://github.com/user-attachments/assets/0633fe2f-5e39-4880-bdfb-acd456d75886" />
 
