@@ -120,6 +120,9 @@ Utilising the linear regression model on the financial data consisted of the fol
 3) Outlier cleaning
 4) Modelling with linear regression
 
+**Data exploration and discovery**  
+This invloved looking over each market capitalisation and their cancellation rate vs volatility to make sure the assocaited data points fit the assumptions necessary to be modelled with linear regression, namely:
+- linearity - 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
 ├──[Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)  
