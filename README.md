@@ -1,5 +1,5 @@
 # Linear-Regression
-Linear regression created from scratch and comparing my implementation to that of the popular packages  scikit -learn. 
+Linear regression created from scratch and comparing my implementation to that of the popular package scikit -learn. 
 
 
 ## HOW IT'S MADE 
