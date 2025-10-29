@@ -8,8 +8,8 @@ Languages used: Python verion (3.13.5)
 Packages and modules: numpy, pandas, matplotlib, scikit-learn  
 Environment: VScode  
 
-## METHOD 
-### LINEAR REGRESSION MODEL 
+## LINEAR REGRESSION MODEL  
+### METHOD 
 To create this model I started by creating a class in Python to store the entire model logic inclusing the model's attributes and methods.  
 These were split up into the main areas of:
 - Initialisation of the class and arguments
