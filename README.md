@@ -113,6 +113,13 @@ Price Decile 1 - 10 - Average stock price of each decile from decile 1 to 10
 Turnover Decile 1 - 10 - Number of stocks sold on that date 
 Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for each decile across each market capitalisationm at that day as variance in stock price.
 
+### METHOD 
+Utilising the linear regression model on the financial data consisted of the following steps:  
+1) Data exploration and discovery
+2) Data cleaning and pre-processing (add method to check missing values) 
+3) Outlier cleaning
+4) Modelling with linear regression
+
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
 ├──[Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)  
