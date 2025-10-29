@@ -142,6 +142,7 @@ Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for ea
 5) Display error messages when taking in inputs using the `vectorise()` method ✅
 6) Method to plot residuals to make sure the data displays the "random cloud" we would expect from linear regression used appropriately ✅
 7) Method to predict dependent variable for any value of independent variable entered ✅
+8) Use linear model to model real financial data []
    
 ## AUTHORS 
 [leta199](https://github.com/leta199)
