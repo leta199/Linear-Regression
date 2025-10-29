@@ -102,10 +102,10 @@ Created a dataframe to compare the my model to that of scikit-learn.
 To identify how well the model works, it was used on real life data from the Securitites and Exchange Commission. 
 
 ### Data  
-[Financial data](https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile)
+[Financial data](https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile)  
 This data was collected from the SEC  regarding data about stock prices grouped by decile and market capitalisation.
 
-The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups that are added together.  Each observation is a time-series organisation of of each group of market capitalisation. 
+The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups that are added together.  Each observation is a time-series organisation of each group of market capitalisation. 
 
 Date- Date when the transaction takes place.  
 Market Cap 1 - 10 - This is the propotion of stocks porposed to trade that got cancelled organised Market capitalisation decile into 10 groups.  
