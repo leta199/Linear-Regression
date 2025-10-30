@@ -116,10 +116,7 @@ Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for ea
 
 ### METHOD 
 Utilising the linear regression model on the financial data consisted of the following steps:  
-1) Data exploration and discovery
-2) Data cleaning and pre-processing (add method to check missing values) 
-3) Outlier cleaning
-4) Modelling with linear regression
+1) 
 
 **Hypothesis**  
 As the volatility in a stock grows, cancel to trade  in each market capitalisation grows as well. This may be because investors are more likely to not vommit to a trade when the stock is more volatile.  
