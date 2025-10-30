@@ -134,7 +134,9 @@ I looked over each market capitalisation and their cancellation rate vs volatili
 - linearity - does the data show a strong linear trend
 - homoscedaicty - does the data have consatnt vraince acroos all ranges of our independent variable
 
-This was done using scatter plots to 
+This was done using scatter plots to see overall trend of data.  
+Decile 1 market capitalisation did not have a very strong positive correlation  
+Decile 9 market capitalisation did  have a very strong positive correlation so I will use it in my modelling 
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
