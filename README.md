@@ -145,6 +145,9 @@ Winsorisation -  Decided to utisilde winsoarisation to the outliers i.e capping 
 
 Finally, plotted scatter plot and boxplots of the varaibles to ensure pre-processing worked well 
 
+**Linear Regression** 
+
+
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
 ├──[Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)  
