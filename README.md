@@ -1,5 +1,6 @@
 # Linear-Regression
-Linear regression created from scratch and comparing my implementation to that of the popular package scikit - learn. 
+Linear regression created from scratch and comparing my implementation to that of the popular package scikit - learn.  
+Utilised the linear regression model to predict cancellation rates for stocks based on volatility.
 
 
 ## HOW IT'S MADE 
