@@ -133,12 +133,15 @@ I looked over each market capitalisation and their cancellation rate vs volatili
 - linearity - does the data show a strong linear trend
 - homoscedaicty - does the data have consatnt vraince acroos all ranges of our independent variable
 
-This was done using scatter plots with `.scatter()`to see overall trend of data.  
+This was done using scatter plots with `.scatter()`to see overall trend of data  
 Decile 1 market capitalisation did not have a very strong positive correlation  
 Decile 9 market capitalisation did  have a very strong positive correlation so I will use it in my modelling 
 
 **Data cleaning and pre-processing**
-Utilised `.boxplot()` to identify outliers in the data which were found to be present only in the higher end of Cancellation rate and Volatility
+Utilised `.boxplot()` to identify outliers in the data which were found to be present only in the higher end of Cancellation rate and Volatility  
+This data accounted for 2% of both variables so it may have been removed however I found that since outliers are only in the higher ranges of the data above Q3 so if it was rmeoved this would represent systematic error   
+Therefore, the statistical properties and distribution of the data like homoscedacity would be affected
+
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
