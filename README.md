@@ -121,6 +121,7 @@ Utilising the linear regression model on the financial data consisted of the fol
 4) Modelling with linear regression
 
 **Hypothesis**  
+As the volatility in a stock grows, cancel to trade  in each market capitalisation grows as well. This may be because investors are more likely to not vommit to a trade when the stock is more volatile.  
 
 **Data exploration and discovery**  
 This invloved looking over each market capitalisation and their cancellation rate vs volatility to make sure the assocaited data points fit the assumptions necessary to be modelled with linear regression, namely:
