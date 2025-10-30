@@ -116,16 +116,25 @@ Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for ea
 
 ### METHOD 
 Utilising the linear regression model on the financial data consisted of the following steps:  
-1) 
+1) Data discovery
+2) Data cleaning and pre-processing
+3) Modelling with linear regression
+
 
 **Hypothesis**  
 As the volatility in a stock grows, cancel to trade  in each market capitalisation grows as well. This may be because investors are more likely to not vommit to a trade when the stock is more volatile.  
 
-**Data exploration and discovery**  
-This invloved looking over each market capitalisation and their cancellation rate vs volatility to make sure the assocaited data points fit the assumptions necessary to be modelled with linear regression, namely:
+**Data  discovery**  
+Stated with insallting all necessary depenedinces such as Pandas, NumPy and MatPlotLib  
+Analysed and inspected the data with the methods `.head()` and `.tail()`   
+Filtered data into just the market capitalisation cancel to trade metric and volatility in the same market capitalisation  
+Renamed cancel to trade metric (Market capitalisation Deciel  n) to  "Cancellation Rate" and (Volatility Decile n) to "Volatility" with `.rename()`  
+
+I looked over each market capitalisation and their cancellation rate vs volatility to make sure the assocaited data points fit the assumptions necessary to be modelled with linear regression, namely:
 - linearity - does the data show a strong linear trend
 - homoscedaicty - does the data have consatnt vraince acroos all ranges of our independent variable
 
+This was done using scatter plots to 
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
