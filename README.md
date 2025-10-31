@@ -69,7 +69,7 @@ Displays stored values in the model that end users may interested in seeing.
 An exmaple from a pandas Series list of predictions is below:   
 <img width="612" height="235" alt="Image" src="https://github.com/user-attachments/assets/8c16c7c7-2b8b-47e6-bf64-03b4fa6c1e5f" />
 
-## COMPARISON TO SCIKIT-LEARN
+### COMPARISON TO SCIKIT-LEARN
 In an effort to see the accuracy of my model and how well numerical optimisation via for loops works for linear regression.    
 
 I began by importing `scikit-learn` as sk and then from the scikit-learn package importing one of their linear models LinearRegression as `lr()`.  
@@ -105,13 +105,13 @@ To identify how well the model works, it was used on real life data from the Sec
 [Financial data](https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile)  
 This data was collected from the SEC  regarding data about stock prices grouped by decile and market capitalisation.
 
-The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups that are added together.  Each observation is a time-series organisation of each group of market capitalisation. 
+The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups based on range of market capitalisation.  Each observation is a time-series organisation of each group of market capitalisation. 
 
-Date- Date when the transaction takes place.  
-Market Cap 1 - 10 - This is the propotion of stocks porposed to trade that got cancelled organised Market capitalisation decile into 10 groups.  
+Date- Date when the stock trade takes place.  
+Market Cap 1 - 10 - This is the propotion of stocks proposed to trade that got cancelled organised Market capitalisation decile into 10 groups.  
 Price Decile 1 - 10 - Average stock price of each decile from decile 1 to 10   
-Turnover Decile 1 - 10 - Number of stocks sold on that date 
-Volatitliy Decile 1- 10 - The risk assocaite with the avergae stock price for each decile across each market capitalisationm at that day as variance in stock price.
+Turnover Decile 1 - 10 - Number of stocks sold on that date relative to total number of stocks 
+Volatitliy Decile 1- 10 - The risk (variance) assocaited with each stock at that given date.
 
 ### METHOD 
 Utilising the linear regression model on the financial data consisted of the following steps:  
@@ -144,19 +144,19 @@ Therefore, the statistical properties and distribution of the data like homosced
 
 Winsorisation -  Decided to utisilde winsoarisation on the outliers i.e capping them to the values of our Upper  and lower range to preserve all of the upper and lower data  points. I applied this both to the Cancellation rate (upper range)  and Volatility (upper and lower range)
 
-Finally, plotted scatter plot and boxplots of the varaibles to ensure pre-processing worked well 
+Finally, plotted scatter plot and boxplots of the variables to ensure pre-processing worked well 
 
-**Linear Regression** 
+**Linear Regression**   
 Utilised my linear regression model to model the data from Decile 7. 
 Cancel to trade metric renamed to (Cancellation rate) was the dependent variable   
 Volatility was our independent variable 
 
-**Interpretation of output**
+**Interpretation of output**  
 Both model managed to explain approxiamtely 70% of the variance in data as seen by both R-sqaured values  
 
 Weights were nearly identical and the weight in my model of 1.0020 shows that my hypothesis was correct, higher volatility means higher cancellation of trades  
 Biases differed between the models by 0.87   
-Mean sqaured error of my model was approximately 3.5, meaning that predictions of cancelattion rate were off by 3.5 orders on average
+Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
@@ -188,7 +188,8 @@ Mean sqaured error of my model was approximately 3.5, meaning that predictions o
 5) Display error messages when taking in inputs using the `vectorise()` method ✅
 6) Method to plot residuals to make sure the data displays the "random cloud" we would expect from linear regression used appropriately ✅
 7) Method to predict dependent variable for any value of independent variable entered ✅
-8) Use linear model to model real financial data []
+8) Use linear model to model real financial data ✅
+9) See how each model works on unseen test data []
    
 ## AUTHORS 
 [leta199](https://github.com/leta199)
