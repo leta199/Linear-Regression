@@ -141,7 +141,7 @@ Decile 7 market capitalisation did  have a very strong positive correlation so I
 Utilised `.boxplot()` to identify outliers in the data which were found to be present only in the higher end of Cancellation rate and Volatility  
 This data accounted for 2% of both variables so it may have been removed however I found that since outliers are only in the higher ranges of the data above Q3 so if it was rmeoved this would represent systematic error   
 Therefore, the statistical properties and distribution of the data like homoscedacity would be affected
-Winsorisation -  Decided to utisilde winsoarisation to the outliers i.e capping them to the values of our Upper range to preserve all of the upper range of data  
+Winsorisation -  Decided to utisilde winsoarisation to the outliers i.e capping them to the values of our Upper lower range to preserve all of the upper and lower  range of data  
 
 Finally, plotted scatter plot and boxplots of the varaibles to ensure pre-processing worked well 
 
