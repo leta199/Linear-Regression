@@ -135,7 +135,7 @@ I looked over each market capitalisation and their cancellation rate vs volatili
 
 This was done using scatter plots with `.scatter()`to see overall trend of data  
 Decile 1 market capitalisation did not have a very strong positive correlation  
-Decile 9 market capitalisation did  have a very strong positive correlation so I will use it in my modelling 
+Decile 7 market capitalisation did  have a very strong positive correlation so I will use it in my modelling 
 
 **Data cleaning and pre-processing**
 Utilised `.boxplot()` to identify outliers in the data which were found to be present only in the higher end of Cancellation rate and Volatility  
