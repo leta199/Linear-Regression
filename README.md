@@ -147,7 +147,16 @@ Winsorisation -  Decided to utisilde winsoarisation on the outliers i.e capping 
 Finally, plotted scatter plot and boxplots of the varaibles to ensure pre-processing worked well 
 
 **Linear Regression** 
+Utilised my linear regression model to model the data from Decile 7. 
+Cancel to trade metric renamed to (Cancellation rate) was the dependent variable   
+Volatility was our independent variable 
 
+**Interpretation of output**
+Both model managed to explain approxiamtely 70% of the variance in data as seen by both R-sqaured values  
+
+Weights were nearly identical and the weight in my model of 1.0020 shows that my hypothesis was correct, higher volatility means higher cancellation of trades  
+Biases differed between the models by 0.87   
+Mean sqaured error of my model was approximately 3.5, meaning that predictions of cancelattion rate were off by 3.5 orders on average
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
