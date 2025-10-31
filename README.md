@@ -102,7 +102,7 @@ Created a dataframe to compare the my model to that of scikit-learn.
 To identify how well the model works, it was used on real life data from the Securitites and Exchange Commission. 
 
 ### Data  
-[Financial data](https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile)  
+[SEC Financial data](https://catalog.data.gov/dataset/summary-metrics-by-decile-and-quartile)  
 This data was collected from the SEC  regarding data about stock prices grouped by decile and market capitalisation.
 
 The main data file I utilised was the decile_cancel_to_trade csv file that aggregates companies by market capitalisation into 10 groups based on range of market capitalisation.  Each observation is a time-series organisation of each group of market capitalisation. 
