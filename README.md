@@ -139,9 +139,10 @@ Decile 7 market capitalisation did  have a very strong positive correlation so I
 
 **Data cleaning and pre-processing**
 Utilised `.boxplot()` to identify outliers in the data which were found to be present only in the higher end of Cancellation rate and Volatility  
-This data accounted for 2% of both variables so it may have been removed however I found that since outliers are only in the higher ranges of the data for cancellation rate   so if it was removed this would represent removing systematic error 
-Therefore, the statistical properties and distribution of the data like homoscedacity would be affected
-Winsorisation -  Decided to utisilde winsoarisation to the outliers i.e capping them to the values of our Upper lower range to preserve all of the upper and lower  range of data  
+This data accounted for 2% of both variables so it may have been removed however I found that since outliers are only in the higher ranges of the data for cancellation rate  so if it was removed this would represent removing systematic error 
+Therefore, the statistical properties and distribution of the data like homoscedacity would be affected particularly for cancellation rate
+
+Winsorisation -  Decided to utisilde winsoarisation on the outliers i.e capping them to the values of our Upper  and lower range to preserve all of the upper and lower data  points. I applied this both to the Cancellation rate (upper range)  and Volatility (upper and lower range)
 
 Finally, plotted scatter plot and boxplots of the varaibles to ensure pre-processing worked well 
 
@@ -166,6 +167,7 @@ Finally, plotted scatter plot and boxplots of the varaibles to ensure pre-proces
 [Winsorized mean](https://www.datacamp.com/tutorial/winsorized-mean)   
 [Dealing with outliers](https://www.analyticsvidhya.com/blog/2022/09/dealing-with-outliers-using-the-iqr-method/)  
 [Linear regression from scratch](https://youtu.be/VmbA0pi2cRQ?si=DLD_hFtu1TFj-SMf)
+
 
 "This is an educational implementation of linear regression for learning purposes — not intended for production use."
 
