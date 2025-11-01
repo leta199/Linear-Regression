@@ -158,6 +158,17 @@ Weights were nearly identical and the weight in my model of 1.0020 shows that my
 Biases differed between the models by 0.87   
 Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average
 
+## TRAINING TEST SPLIT 
+
+Since there is a little bit more variance in financial data I wanted to test out train - test split in my model 
+This began with exploring how well my model performs when only trained ona  subset of data  
+I began by:
+- Separating data into a 45% train and 55% test split
+- Training model on the training dataset
+- Using the predict method to make predictions for test data set based on the independent data in the test split.
+
+
+
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
 ├──[Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)  
