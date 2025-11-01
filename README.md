@@ -188,7 +188,8 @@ It will likely include corss validation amogst k many subsets to ensure maximum 
 ## USEFUL EDUCATIONAL RESOURCES    
 [Winsorized mean](https://www.datacamp.com/tutorial/winsorized-mean)   
 [Dealing with outliers](https://www.analyticsvidhya.com/blog/2022/09/dealing-with-outliers-using-the-iqr-method/)  
-[Linear regression from scratch](https://youtu.be/VmbA0pi2cRQ?si=DLD_hFtu1TFj-SMf)
+[Linear regression from scratch](https://youtu.be/VmbA0pi2cRQ?si=DLD_hFtu1TFj-SMf)  
+[Train - test splits](https://builtin.com/data-science/train-test-split)
 
 
 "This is an educational implementation of linear regression for learning purposes — not intended for production use."
