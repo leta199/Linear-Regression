@@ -173,7 +173,7 @@ class  LinearRegression(object):
             m = len(x) 
             predict =[]
             for i in range(m):
-                predict.append(self.weight * x[i] + self.bias)
+                predict.append(self.weight * x.iloc[i] + self.bias)
             for i in range(m):
                  print(float(predict[i]))
             
