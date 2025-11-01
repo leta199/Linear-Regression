@@ -203,6 +203,7 @@ It will likely include corss validation amogst k many subsets to ensure maximum 
 7) Method to predict dependent variable for any value of independent variable entered ✅
 8) Use linear model to model real financial data ✅
 9) See how each model works on unseen test data []
+10) Use test - training splits and cross validation on future models
    
 ## AUTHORS 
 [leta199](https://github.com/leta199)
