@@ -151,6 +151,9 @@ Utilised my linear regression model to model the data from Decile 7.
 Cancel to trade metric renamed to (Cancellation rate) was the dependent variable   
 Volatility was our independent variable 
 
+<img width="566" height="453" alt="Image" src="https://github.com/user-attachments/assets/ff7463c2-d2f2-4a2d-bcee-3f3864ed0696" />
+
+
 ## FINAL INSIGHTS 
 My original hypothesis was correct. **Volatility of stock prices does have a positive effect on cancellation of stock orders** 
 
