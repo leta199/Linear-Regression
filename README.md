@@ -1,13 +1,23 @@
 # Linear-Regression
 Linear regression created from scratch and comparing my implementation to that of the popular package scikit - learn.  
-Utilised the linear regression model to predict cancellation rates for stocks based on volatility.
+
+The notebook will:
+- Load and clean SEC financial data from the `/data folder`
+- Import and train a custom regression model from `/model/LinearRegression.py`
+- Generate predictions and visualizations
+- Compare results with scikit-learn’s built-in LinearRegression model
 
 
 ## HOW IT'S MADE 
 
-Languages used: Python verion (3.13.5)  
-Packages and modules: numpy, pandas, matplotlib, scikit-learn  
+Languages used: Python  
+Packages and modules: numpy, pandas, matplotlib, scikit-learn, pathlib  
 Environment: VScode  
+
+![Python](https://img.shields.io/badge/Python-3.13.5-blue)
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-lightgrey)
 
 ## LINEAR REGRESSION MODEL  
 ### METHOD 
@@ -166,6 +176,31 @@ My model and scikit-learn managed to explain approxiamtely 70% of the variance i
 Weights were nearly identical and the weight in my model of 1.0020 
 Biases differed between the models by 0.87   
 Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average
+
+## Setup & Installation 
+
+Clone this repository and navigate into the project directory:
+
+`git clone https://github.com/YourUsername/Linear-Regression.git`  
+`cd Linear-Regression`
+
+Create a virtual environment (recommended) and install dependencies:  
+`python -m venv venv`  
+`source venv/bin/activate`  
+`venv\Scripts\activate`        
+
+`pip install -r requirements.txt`
+
+**Usage**
+
+Once the environment is set up, launch Jupyter Notebook:  
+`jupyter notebook`
+
+Then open and run the notebook:  
+`Linear_Regression_Finance.ipynb`
+
+Note: this projects uses relative file paths therefore all imports such as of the `LinearRegression.py` file should be okay as long as file structure remains the same. 
+
 
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
