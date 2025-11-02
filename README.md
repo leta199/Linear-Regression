@@ -180,7 +180,7 @@ Mean sqaured error of my model was approximately 3.5 meaning that predictions of
 │  └──[__init__](https://github.com/leta199/Linear-Regression/blob/main/model/__init__.py)     
 │  
 ├──[data](https://github.com/leta199/Linear-Regression/tree/main/data)    
-│  └──[decile tp cancel csv](https://github.com/leta199/Linear-Regression/blob/main/data/decile_cancel_to_trade_stock.csv)
+│  └──[decile to cancel csv](https://github.com/leta199/Linear-Regression/blob/main/data/decile_cancel_to_trade_stock.csv)
 │  
 │  
 ├──[License](https://github.com/leta199/Linear-Regression/blob/main/LICENSE)  
