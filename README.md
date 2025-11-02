@@ -1,5 +1,6 @@
 # Linear-Regression
-Linear regression created from scratch and comparing my implementation to that of the popular package scikit - learn.  
+Built a linear regression model from scratch in Python to understand the mechanics behind predictive modeling using SEC market data. Implemented gradient descent, feature scaling, and performance evaluation, then compared results with scikit-learn’s version.   
+The project blends hands-on coding with applied quantitative reasoning and real-world financial data analysis.
 
 The notebook will:
 - Load and clean SEC financial data from the `/data folder`
