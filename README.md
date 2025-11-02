@@ -151,24 +151,19 @@ Utilised my linear regression model to model the data from Decile 7.
 Cancel to trade metric renamed to (Cancellation rate) was the dependent variable   
 Volatility was our independent variable 
 
-**Interpretation of output**  
-Both model managed to explain approxiamtely 70% of the variance in data as seen by both R-sqaured values  
+## FINAL INSIGHTS 
+My original hypothesis was correct. **Volatility of stock prices does have a positive effect on cancellation of stock orders** 
 
-Weights were nearly identical and the weight in my model of 1.0020 shows that my hypothesis was correct, higher volatility means higher cancellation of trades  
+**Interpretation of output**  
+My model and scikit-learn managed to explain approxiamtely 70% of the variance in data as seen by both R-sqaured values 
+
+Weights were nearly identical and the weight in my model of 1.0020 
 Biases differed between the models by 0.87   
 Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average
 
-### TRAINING TEST SPLIT 
 
-Since there is a little bit more variance in financial data I wanted to test out train - test split in my model 
-This began with exploring how well my model performs when only trained ona  subset of data  
-I began by:
-- Separating data into a 45% train and 55% test split
-- Training model on the training dataset
-- Using the predict method to make predictions for test data set based on the independent data in the test split.
 
-This train - test split method is most likely going to be fully implemented into my following models but not likely to be this one  
-It will likely include corss validation amogst k many subsets to ensure maximum accuracy and predictive power with a balance of generalisability
+
 
 
  ## PROJECT STRUCTURE      
