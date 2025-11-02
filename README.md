@@ -162,6 +162,7 @@ My model and scikit-learn managed to explain approxiamtely 70% of the variance i
 
 <img width="445" height="72" alt="Image" src="https://github.com/user-attachments/assets/e79cae63-5929-44b7-a47f-338613f44408" />
 
+
 Weights were nearly identical and the weight in my model of 1.0020 
 Biases differed between the models by 0.87   
 Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average
@@ -173,8 +174,14 @@ Mean sqaured error of my model was approximately 3.5 meaning that predictions of
 │  └──[Finance data](https://github.com/leta199/Linear-Regression/blob/main/finance_application/finance_data.csv)  
 │  
 ├──[Model](https://github.com/leta199/Linear-Regression/tree/main/model)  
-│  ├──[Linear Regression (core model)](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)  
-│  └──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)  
+│  ├──[Linear regression.py](https://github.com/leta199/Linear-Regression/blob/main/model/LinearRegression.py)      
+│  └──[Linear Regression (core model)](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)      
+│  └──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)      
+│  └──[__init__](https://github.com/leta199/Linear-Regression/blob/main/model/__init__.py)     
+│  
+├──[data](https://github.com/leta199/Linear-Regression/tree/main/data)    
+│  └──[decile tp cancel csv](https://github.com/leta199/Linear-Regression/blob/main/data/decile_cancel_to_trade_stock.csv)
+│  
 │  
 ├──[License](https://github.com/leta199/Linear-Regression/blob/main/LICENSE)  
 └──[README](https://github.com/leta199/Linear-Regression/blob/main/README.md)
