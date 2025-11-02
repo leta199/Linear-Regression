@@ -173,7 +173,7 @@ Mean sqaured error of my model was approximately 3.5 meaning that predictions of
 │  ├──[Linear Regression Finance Application](https://github.com/leta199/Linear-Regression/blob/main/finance_application/Linear_Regression_Finance.ipynb)   
 │  └──[Finance data](https://github.com/leta199/Linear-Regression/blob/main/finance_application/finance_data.csv)  
 │  
-├──[Model](https://github.com/leta199/Linear-Regression/tree/main/model)  
+├──[model](https://github.com/leta199/Linear-Regression/tree/main/model)  
 │  ├──[Linear regression.py](https://github.com/leta199/Linear-Regression/blob/main/model/LinearRegression.py)      
 │  └──[Linear Regression (core model)](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)      
 │  └──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)      
