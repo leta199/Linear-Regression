@@ -163,11 +163,6 @@ Weights were nearly identical and the weight in my model of 1.0020
 Biases differed between the models by 0.87   
 Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average
 
-
-
-
-
-
  ## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
 ├──[Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)  
