@@ -3,10 +3,10 @@ Built a linear regression model from scratch in Python to understand the mechani
 The project blends hands-on coding with applied quantitative reasoning and real-world financial data analysis.
 
 The notebook will:
-- Load and clean SEC financial data from the `/data folder`
-- Import and train a custom regression model from `/model/LinearRegression.py`
-- Generate predictions and visualizations
-- Compare results with scikit-learn’s built-in LinearRegression model
+- Load and clean SEC financial data from the `/data folder`.
+- Import and train a custom regression model from `/model/LinearRegression.py`.
+- Generate predictions and visualizations.
+- Compare results with scikit-learn’s built-in LinearRegression model.
 
 
 ## HOW IT'S MADE 
@@ -24,13 +24,13 @@ Environment: VScode
 ### METHOD 
 To create this model I started by creating a class in Python to store the entire model logic inclusing the model's attributes and methods.  
 These were split up into the main areas of:
-- Initialisation of the class and arguments
-- Method to take in modelling data points
-- Numerical optimisation via gradient descent
-- Display model residuals and plot residuals 
-- Displaying key internals of the model such as weight and bias 
-- Evaluation metrics common to linear regression such as Mean squared error and R squared
-- Method to predict dependent variable 
+- Initialisation of the class and arguments.
+- Method to take in modelling data points.
+- Numerical optimisation via gradient descent.
+- Display model residuals and plot residuals. 
+- Displaying key internals of the model such as weight and bias. 
+- Evaluation metrics common to linear regression such as Mean squared error and R squared.
+- Method to predict dependent variable. 
 
 
 **Initialisation**  
