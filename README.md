@@ -41,8 +41,8 @@ I initialised the class using the intialiser  `__init__`  as well as defined the
 
 **Method to input data points**   
 This method called `vectorise()` takes in the points to be modelled and makes sure that they are:
-- Numeric, iteratable and indexable (e.g tuples, lists and np.arrays) - if so they are converted into a list
-If they are not numeric, indexeable or iteratable like pd.Dataframes they are convtrted into lists with only the values and removinf any metadata
+- Numeric, iteratable and indexable (e.g tuples, lists and np.arrays) - if so they are converted into a list.
+If they are not numeric, indexeable or iteratable like pd.Dataframes they are convtrted into lists with only the values and removinf any metadata.
 
 Return appropriate errors if any data is entered  in the incorrect format like singular values or non-numeric types.
 
@@ -51,7 +51,7 @@ Return appropriate errors if any data is entered  in the incorrect format like s
 `preditc_y()` - an internal method to caluculate the predicted y value in the model.  
 `partial_w()` - calculates the weight that minimises our partial derivative of error in regard to the weight to get the global minimum.
 `partial_b()` -calculates the bias that minimises our partial derivative of error in regard to the bias to get the global minimum.
-`optimise()` - uses the number of epochs and iterates over that many epochs while taking steps towrds global minimum in regard to weight and bias at once in the sixe of the  learning rate. Also prints these weights and biases every 10 epochs to see how the optimisation is progressing 
+`optimise()` - uses the number of epochs and iterates over that many epochs while taking steps towrds global minimum in regard to weight and bias at once in the sixe of the  learning rate. Also prints these weights and biases every 10 epochs to see how the optimisation is progressing. 
 
 **Displaying Residuals and Visualising Residuals**
 `residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display to users.  
@@ -65,14 +65,14 @@ An example from synthetic data:
 **Displaying model internals**   
 Displays stored values in the model that end users may interested in seeing.   
 
-`display_x()` ,`display_y()` - methods that display the entered x and y data as lists from the class  
+`display_x()` ,`display_y()` - methods that display the entered x and y data as lists from the class.  
 `display_predict()` - displays the predicted y values based on our optimised weight and bias i.e on line of best fit. 
 `display_weight()` - displays the optimised weight the model calculated with a simple `print()` statement.  
 `display_bias()` - displays the optimised bias calculated via gradient descent.
 
 **Evaluation metrics**   
 `mse()`- calculates and displays the mean square error of the model by calculating total sqaure error and dividing by the number of data points to get the average.  
-`rsquared()` - caluclates the average of the input data points and subtracts this from the predicted y to get sum of squares, then calculated square error to final calculate the rsquared by dividng the two and subtracting them from 1  
+`rsquared()` - caluclates the average of the input data points and subtracts this from the predicted y to get sum of squares, then calculated square error to final calculate the rsquared by dividng the two and subtracting them from 1.  
 
 **Predictions**  
 `predict()` - returns the predicted y value (independent variable) based on input x values(s). This method accepts values of x as tuples, lists, NumPy arrays, pandas Series, integers and floats. It also returns an error message if any other types are used for prediction such as pandas Dataframes. 
@@ -101,12 +101,12 @@ Imported the model as `lr()`.
 Fit the model to the training data using the `fit()` method to generate model parameters.  
 Assinged the rsquared to the variable `rsquared_train` on training data using the `.score()` method.  
 Assigned the weight and bias to the variables `sk_coef` and `sk_intercept`.   
-Generated the mean square error using the `mean_squared_error()` function and assigned mse to the variable `mse_train`
+Generated the mean square error using the `mean_squared_error()` function and assigned mse to the variable `mse_train`.
 
 #### Dataframe      
 Created a dataframe to compare the my model to that of scikit-learn.  
--Displayed the key metrics, namely: mean squared error and R^2   
--Displayed the calculated weight and bias from each model 
+-Displayed the key metrics, namely: mean squared error and R^2.   
+-Displayed the calculated weight and bias from each model. 
 
 
 ## FINANCE APPLICATION 
@@ -120,8 +120,8 @@ The main data file I utilised was the decile_cancel_to_trade csv file that aggre
 
 Date- Date when the stock trade takes place.  
 Market Cap 1 - 10 - This is the propotion of stocks proposed to trade that got cancelled organised Market capitalisation decile into 10 groups.  
-Price Decile 1 - 10 - Average stock price of each decile from decile 1 to 10   
-Turnover Decile 1 - 10 - Number of stocks sold on that date relative to total number of stocks 
+Price Decile 1 - 10 - Average stock price of each decile from decile 1 to 10.   
+Turnover Decile 1 - 10 - Number of stocks sold on that date relative to total number of stocks. 
 Volatitliy Decile 1- 10 - The risk (variance) assocaited with each stock at that given date.
 
 ### METHOD 
@@ -135,48 +135,48 @@ Utilising the linear regression model on the financial data consisted of the fol
 As the volatility in a stock grows, cancel to trade  in each market capitalisation grows as well. This may be because investors are more likely to not vommit to a trade when the stock is more volatile.  
 
 **Data  discovery**  
-Stated with insallting all necessary depenedinces such as Pandas, NumPy and MatPlotLib  
-Analysed and inspected the data with the methods `.head()` and `.tail()`   
-Filtered data into just the market capitalisation cancel to trade metric and volatility in the same market capitalisation  
-Renamed cancel to trade metric (Market capitalisation Deciel  n) to  "Cancellation Rate" and (Volatility Decile n) to "Volatility" with `.rename()`  
+Started with insallting all necessary depenedinces such as Pandas, NumPy and MatPlotLib.  
+Analysed and inspected the data with the methods `.head()` and `.tail()`.   
+Filtered data into just the market capitalisation cancel to trade metric and volatility in the same market capitalisation.  
+Renamed cancel to trade metric (Market capitalisation Deciel  n) to  "Cancellation Rate" and (Volatility Decile n) to "Volatility" with `.rename()`.  
 
 I looked over each market capitalisation and their cancellation rate vs volatility to make sure the assocaited data points fit the assumptions necessary to be modelled with linear regression, namely:
-- linearity - does the data show a strong linear trend
-- homoscedaicty - does the data have consatnt vraince acroos all ranges of our independent variable
+- linearity - does the data show a strong linear trend.
+- homoscedaicty - does the data have consatnt vraince acroos all ranges of our independent variable.
 
-This was done using scatter plots with `.scatter()`to see overall trend of data  
-Decile 1 market capitalisation did not have a very strong positive correlation  
-Decile 7 market capitalisation did  have a very strong positive correlation so I will use it in my modelling 
+This was done using scatter plots with `.scatter()`to see overall trend of data.  
+Decile 1 market capitalisation did not have a very strong positive correlation.  
+Decile 7 market capitalisation did  have a very strong positive correlation so I will use it in my modelling. 
 
 **Data cleaning and pre-processing**
-Utilised `.boxplot()` to identify outliers in the data which were found to be present only in the higher end of Cancellation rate and Volatility  
-This data accounted for 2% of both variables so it may have been removed however I found that since outliers are only in the higher ranges of the data for cancellation rate  so if it was removed this would represent removing systematic error 
-Therefore, the statistical properties and distribution of the data like homoscedacity would be affected particularly for cancellation rate
+Utilised `.boxplot()` to identify outliers in the data which were found to be present only in the higher end of Cancellation rate and Volatility.  
+This data accounted for 2% of both variables so it may have been removed however I found that since outliers are only in the higher ranges of the data for cancellation rate  so if it was removed this would represent removing systematic error. 
+Therefore, the statistical properties and distribution of the data like homoscedacity would be affected particularly for cancellation rate.
 
-Winsorisation -  Decided to utisilde winsoarisation on the outliers i.e capping them to the values of our Upper  and lower range to preserve all of the upper and lower data  points. I applied this both to the Cancellation rate (upper range)  and Volatility (upper and lower range)
+Winsorisation -  Decided to utisilde winsoarisation on the outliers i.e capping them to the values of our Upper  and lower range to preserve all of the upper and lower data  points. I applied this both to the Cancellation rate (upper range)  and Volatility (upper and lower range).
 
-Finally, plotted scatter plot and boxplots of the variables to ensure pre-processing worked well 
+Finally, plotted scatter plot and boxplots of the variables to ensure pre-processing worked well. 
 
 **Linear Regression**   
 Utilised my linear regression model to model the data from Decile 7. 
-Cancel to trade metric renamed to (Cancellation rate) was the dependent variable   
-Volatility was our independent variable 
+Cancel to trade metric renamed to (Cancellation rate) was the dependent variable.   
+Volatility was our independent variable. 
 
 <img width="566" height="453" alt="Image" src="https://github.com/user-attachments/assets/ff7463c2-d2f2-4a2d-bcee-3f3864ed0696" />
 
 
 ## FINAL INSIGHTS 
-My original hypothesis was correct. **Volatility of stock prices does have a positive effect on cancellation of stock orders** 
+My original hypothesis was correct. **Volatility of stock prices does have a positive effect on cancellation of stock orders** .
 
 **Interpretation of output**  
-My model and scikit-learn managed to explain approxiamtely 70% of the variance in data as seen by both R-sqaured values 
+My model and scikit-learn managed to explain approxiamtely 70% of the variance in data as seen by both R-sqaured values. 
 
 <img width="445" height="72" alt="Image" src="https://github.com/user-attachments/assets/e79cae63-5929-44b7-a47f-338613f44408" />
 
 
-Weights were nearly identical and the weight in my model of 1.0020 
-Biases differed between the models by 0.87   
-Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average
+Weights were nearly identical and the weight in my model of 1.0020. 
+Biases differed between the models by 0.87.   
+Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average.
 
 ## Setup & Installation 
 
@@ -242,7 +242,7 @@ Note: this projects uses relative file paths therefore all imports such as of th
 6) Method to plot residuals to make sure the data displays the "random cloud" we would expect from linear regression used appropriately ✅
 7) Method to predict dependent variable for any value of independent variable entered ✅
 8) Use linear model to model real financial data ✅
-9) Use test - training splits and cross validation on future models 
+9) Use test - training splits and cross validation on future models .
    
 ## AUTHORS 
 [leta199](https://github.com/leta199)
