@@ -12,7 +12,7 @@ The notebook will:
 ## HOW IT'S MADE 
 
 Languages used: Python  
-Packages and modules: numpy, pandas, matplotlib, scikit-learn, pathlib  
+Packages and modules: `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `pathlib`  
 Environment: VScode  
 
 ![Python](https://img.shields.io/badge/Python-3.13.5-blue)
