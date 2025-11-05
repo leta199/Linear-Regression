@@ -8,7 +8,6 @@ The notebook will:
 - Generate predictions and visualizations.
 - Compare results with scikit-learn’s built-in LinearRegression model.
 
-
 ## HOW IT'S MADE 
 
 Languages used: Python  
