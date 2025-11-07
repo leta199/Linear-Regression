@@ -202,7 +202,7 @@ Then open and run the notebook:
 Note: this projects uses relative file paths therefore all imports such as of the `LinearRegression.py` file should be okay as long as file structure remains the same. 
 
 
- ## PROJECT STRUCTURE      
+## PROJECT STRUCTURE      
 [Linear-Regression](https://github.com/leta199/Linear-Regression)  
 ├──[Finance application](https://github.com/leta199/Linear-Regression/tree/main/finance_application)  
 │  ├──[Linear Regression Finance Application](https://github.com/leta199/Linear-Regression/blob/main/finance_application/Linear_Regression_Finance.ipynb)   
