@@ -216,8 +216,8 @@ Note: this projects uses relative file paths therefore all imports such as of th
 │    
 |├──[data](https://github.com/leta199/Linear-Regression/tree/main/data)    
 │  ├──[decile to cancel csv](https://github.com/leta199/Linear-Regression/blob/main/data/decile_cancel_to_trade_stock.csv)  
-│  └──[requirements](https://github.com/leta199/Linear-Regression/blob/main/data/requirements.txt)
-│      
+│  └──[requirements](https://github.com/leta199/Linear-Regression/blob/main/data/requirements.txt)  
+|  
 |├──[License](https://github.com/leta199/Linear-Regression/blob/main/LICENSE)  
 |└──[README](https://github.com/leta199/Linear-Regression/blob/main/README.md)
 
