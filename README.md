@@ -210,12 +210,12 @@ Note: this projects uses relative file paths therefore all imports such as of th
 │    
 |├──[model](https://github.com/leta199/Linear-Regression/tree/main/model)  
 │  ├──[Linear regression.py](https://github.com/leta199/Linear-Regression/blob/main/model/LinearRegression.py)      
-│  └──[Linear Regression (core model)](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)      
-│  └──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)      
+│  ├──[Linear Regression (core model)](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)      
+│  ├──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)      
 │  └──[__init__](https://github.com/leta199/Linear-Regression/blob/main/model/__init__.py)     
 │    
 |├──[data](https://github.com/leta199/Linear-Regression/tree/main/data)    
-│  └──[decile to cancel csv](https://github.com/leta199/Linear-Regression/blob/main/data/decile_cancel_to_trade_stock.csv)  
+│  ├──[decile to cancel csv](https://github.com/leta199/Linear-Regression/blob/main/data/decile_cancel_to_trade_stock.csv)  
 │  └──[requirements](https://github.com/leta199/Linear-Regression/blob/main/data/requirements.txt)
 │      
 |├──[License](https://github.com/leta199/Linear-Regression/blob/main/LICENSE)  
