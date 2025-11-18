@@ -23,6 +23,7 @@ Environment: VScode
 ### METHOD 
 To create this model I started by creating a class in Python to store the entire model logic inclusing the model's attributes and methods.  
 These were split up into the main areas of:
+
 - Initialisation of the class and arguments.
 - Method to take in modelling data points.
 - Numerical optimisation via gradient descent.
