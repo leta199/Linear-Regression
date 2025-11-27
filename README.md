@@ -174,9 +174,9 @@ My model and scikit-learn managed to explain approxiamtely 70% of the variance i
 <img width="445" height="72" alt="Image" src="https://github.com/user-attachments/assets/e79cae63-5929-44b7-a47f-338613f44408" />
 
 
-Weights were nearly identical and the weight in my model of 1.0020. 
+Weights were nearly identical and the weight in my model of 1.049. 
 Biases differed between the models by 0.87.   
-Mean sqaured error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average.
+Mean squared error of my model was approximately 3.5 meaning that predictions of cancelattion rate were off by 3.5 orders on average.
 
 ## Setup & Installation 
 
