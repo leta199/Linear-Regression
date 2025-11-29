@@ -83,7 +83,7 @@ An exmaple from a pandas Series list of predictions is below:
 ### COMPARISON TO SCIKIT-LEARN
 In an effort to see the accuracy of my model and how well numerical optimisation via for loops works for linear regression.    
 
-I began by importing `scikit-learn` as sk and then from the scikit-learn package importing one of their linear models LinearRegression as `lr()`.  
+I began by importing `scikit-learn` as `sk` and then from the scikit-learn package importing one of their linear models LinearRegression as `lr()`.  
 
 Use `np.set_seed()` to set a seed for reproducibility of the comparison.  
 Generate random synthetic linear data with random noise to compare the two models to each other.  
