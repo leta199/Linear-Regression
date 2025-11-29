@@ -3,7 +3,7 @@ Built a linear regression model from scratch in Python to understand the mechani
 The project blends hands-on coding with applied quantitative reasoning and real-world financial data analysis.
 
 The notebook will:
-- Load and clean SEC financial data from the `/data folder`.
+- Load and clean SEC financial data from the `/data`.
 - Import and train a custom regression model from `/model/LinearRegression.py`.
 - Generate predictions and visualizations.
 - Compare results with scikit-learn’s built-in LinearRegression model.
