@@ -138,7 +138,7 @@ As the volatility in a stock grows, cancel to trade  in each market capitalisati
 Started with insallting all necessary depenedinces such as Pandas, NumPy and MatPlotLib.  
 Analysed and inspected the data with the methods `.head()` and `.tail()`.   
 Filtered data into just the market capitalisation cancel to trade metric and volatility in the same market capitalisation.  
-Renamed cancel to trade metric (Market capitalisation Deciel  n) to  "Cancellation Rate" and (Volatility Decile n) to "Volatility" with `.rename()`.  
+Renamed cancel to trade metric (Market capitalisation Decile n) to  "Cancellation Rate" and (Volatility Decile n) to "Volatility" with `.rename()`.  
 
 I looked over each market capitalisation and their cancellation rate vs volatility to make sure the assocaited data points fit the assumptions necessary to be modelled with linear regression, namely:
 - linearity - does the data show a strong linear trend.
