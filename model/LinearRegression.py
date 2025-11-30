@@ -142,7 +142,7 @@ class  LinearRegression(object):
         n = len(self.y)
 
         for i in range(n):
-            sum_squares_list.append((self.y[i] - self.avg_y)**2) #the squared values of actual - predicted y  and storing them in the empty list above 
+            sum_squares_list.append((self.y[i] - self.avg_y)**2) #the squared values of actual y - predicted y  and storing them in the empty list above 
             self.sum_squares += sum_squares_list[i]              #adding togther all of the sum of squares into initial variable sum_squares 
     #Squared error 
         self.square_error = 0                
