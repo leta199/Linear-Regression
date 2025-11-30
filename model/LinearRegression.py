@@ -9,7 +9,7 @@ class  LinearRegression(object):
         self.x = []                       #creates empty list to store our predictor variables (x)  
         self.y = []                       #creates empty list to store our our predicted variables (y) 
         self.learning_rate = learning_rate #setting your own learning rate 
-        self.epochs = int(epochs)               #setting your own number of epochs 
+        self.epochs = int(epochs)               #setting your own number of epochs as an integer 
  
     def vectorise_x(self, x):                   #method to store, convert and display error messages for input data 
         if isinstance(x, (pd.DataFrame)):       #if input data is as dataframe display error message to request series 
@@ -37,7 +37,7 @@ class  LinearRegression(object):
         
                       
 
-    def predict_y (self):                 #calculating the predicted y[i] for our optimisation later 
+    def predict_y (self):                 #calculating the predicted y[i] for our optimisation (later) 
         self.y_predict =[]                #creating an empty list to store all predicted y values 
         n = len(self.y)                   #range that we iterate over (number of values of y)
 
