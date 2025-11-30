@@ -120,7 +120,7 @@ class  LinearRegression(object):
     def mse(self):
         mse = 0                              #initialising our mse as a variable  that will be updated through the loops 
         n=len(self.y)                        #creating length for range to iterate over
-        square_error = 0                     #initialising the sqaure error aas zero 
+        square_error = 0                     #initialising the sqaure error as zero 
 
         for i in range(n):                   #iterating to calculate the mse 
             square_error += ((self.y[i] - (self.weight * self.x[i] + self.bias))**2)
