@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 class  LinearRegression(object):
-    def __init__(self, learning_rate, epochs, weight=0, bias=0, ): #initialises the attributes of the class at with adjustable learning rate and epochs 
+    def __init__(self, learning_rate, epochs, weight=0, bias=0, ): #initialises the attributes of the class with adjustable learning rate and epochs 
         self.weight = weight              #stores weight 
         self.bias = bias                  #stores bias 
         self.x = []                       #creates empty list to store our predictor variables (x)  
