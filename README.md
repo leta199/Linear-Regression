@@ -32,7 +32,6 @@ These were split up into the main areas of:
 - Evaluation metrics common to linear regression such as Mean squared error and R squared.
 - Method to predict dependent variable. 
 
-
 **Initialisation**  
 I initialised the class using the intialiser  `__init__`  as well as defined the arguments of the class as:
 1) learning rate
