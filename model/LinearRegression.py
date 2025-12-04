@@ -150,7 +150,7 @@ class  LinearRegression(object):
         for i in range(n):
             self.square_error +=((self.y[i] - (self.weight * self.x[i] + self.bias))**2)                           
     #Final calculation 
-        rsquared = 0                         #initialising our value of rsquared as 0 
+        rsquared = 0                                             #initialising our value of rsquared as 0 
         n=len(self.y)
 
         rsquared = (1-(self.square_error/self.sum_squares)) #calculating R^2 with our instances of sum of squares and square error 
@@ -158,7 +158,7 @@ class  LinearRegression(object):
 
 #Predictions - method to predict dependent variable based on an input independent variable of interest
     def predict(self, x): 
-        if isinstance(x, (pd.DataFrame)):       #if input data is as dataframe display error message to request series 
+        if isinstance(x, (pd.DataFrame)):              #if input data is as dataframe display error message to request series 
             print("Error: Use iterable without metadata like 'pd.Series`")
 
         elif isinstance(x, (tuple, list, np.ndarray)): #valid input data as the type of tuples, lists, arrays that are numeric, iterable and indexable 
