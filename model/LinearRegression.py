@@ -68,9 +68,9 @@ class  LinearRegression(object):
 
 #Gradient Descent - iterating over multiple steps with our partial weight and bias functions 
     def optimise(self): 
-        learn_rate = self.learning_rate                #size of steps we make "downhill" to minimise total error in regards to the weight and bias 
+        learn_rate = self.learning_rate                                #size of steps we make "downhill" to minimise total error in regards to the weight and bias 
 
-        for i in range(self.epochs):                   #number of "epochs"/ steps we take in order to minimise aggregate error 
+        for i in range(self.epochs):                                  #number of "epochs"/ steps we take in order to minimise aggregate error 
             self.weight = self.weight + learn_rate * self.partial_w() #optimised weight by calling partial_w as many times as epochs entered
             self.bias = self.bias + learn_rate * self.partial_b()     #optimised bias  by calling partial_b as many times as epochs entered
             if i % 10 == 0:                                           #prints out the weight and bias every 10 epochs 
