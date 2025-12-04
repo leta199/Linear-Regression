@@ -232,7 +232,7 @@ Note: this projects uses relative file paths therefore all imports such as of th
 
 "This is an educational implementation of linear regression for learning purposes — not intended for production use."
 
-## WHAT DOES THE FUTURE HOLD   
+## WHAT DOES THE FUTURE HOLD?   
 1) I wish to extend my model to be able to work on all kinds of interatables like pandas series and numpy arrays ✅
 2) Add methods to adjust learning rate and number of epochs ✅
 3) Add method to display evaluation metrics like R squared, Mean squared error ✅ 
