@@ -76,7 +76,8 @@ Displays stored values in the model that end users may interested in seeing.
 **Predictions**  
 `predict()` - returns the predicted y value (independent variable) based on input x values(s). This method accepts values of x as tuples, lists, NumPy arrays, pandas Series, integers and floats. It also returns an error message if any other types are used for prediction such as pandas Dataframes. 
 
-An exmaple from a pandas Series list of predictions is below:   
+An exmaple from a pandas Series list of predictions is below:
+
 <img width="612" height="235" alt="Image" src="https://github.com/user-attachments/assets/8c16c7c7-2b8b-47e6-bf64-03b4fa6c1e5f" />
 
 ### COMPARISON TO SCIKIT-LEARN
