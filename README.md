@@ -241,7 +241,6 @@ Note: this projects uses relative file paths therefore all imports such as of th
 6) Method to plot residuals to make sure the data displays the "random cloud" we would expect from linear regression used appropriately ✅
 7) Method to predict dependent variable for any value of independent variable entered ✅
 8) Use linear model to model real financial data ✅
-9) Use test - training splits and cross validation on future models .
    
 ## AUTHORS 
 [leta199](https://github.com/leta199)
