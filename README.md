@@ -48,8 +48,8 @@ Return appropriate errors if any data is entered  in the incorrect format like s
 **Numerical optimisation**  
 The actual group of  methods that calculate the optimal weight and bias of the data.  
 `preditc_y()` - an internal method to calculate the predicted y value in the model.  
-`partial_w()` - calculates the weight that minimises our partial derivative of error in regard to the weight to get the global minimum.
-`partial_b()` -calculates the bias that minimises our partial derivative of error in regard to the bias to get the global minimum.
+`partial_w()` - calculates the weight that minimises our partial derivative of error in regard to the weight to get the global minimum.  
+`partial_b()` -calculates the bias that minimises our partial derivative of error in regard to the bias to get the global minimum.  
 `optimise()` - uses the number of epochs and iterates over that many epochs while taking steps towrds global minimum in regard to weight and bias at once in the direction of the  learning rate. Also prints these weights and biases every 10 epochs to see how the optimisation is progressing. 
 
 **Displaying Residuals and Visualising Residuals**
