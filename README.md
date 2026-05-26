@@ -212,7 +212,7 @@ Note: this projects uses relative file paths therefore all imports such as of th
 |├──[model](https://github.com/leta199/Linear-Regression/tree/main/model)  
 │  ├──[Linear regression.py](https://github.com/leta199/Linear-Regression/blob/main/model/LinearRegression.py)      
 │  ├──[Linear Regression (core model)](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)      
-│  ├──[Mathematical logic](https://github.com/leta199/Linear-Regression/blob/main/model/Mathematical%20logic.pdf)      
+│  ├──[Optimisation logic](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression___Optimisation.pdf)      
 │  └──[__init__](https://github.com/leta199/Linear-Regression/blob/main/model/__init__.py)     
 │    
 |├──[data](https://github.com/leta199/Linear-Regression/tree/main/data)    
