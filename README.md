@@ -52,7 +52,7 @@ The actual group of  methods that calculate the optimal weight and bias of the d
 `partial_b()` -calculates the bias that minimises our partial derivative of error in regard to the bias to get the global minimum.  
 `optimise()` - uses the number of epochs and iterates over that many epochs while taking steps towrds global minimum in regard to weight and bias at once in the direction of the  learning rate. Also prints these weights and biases every 10 epochs to see how the optimisation is progressing. 
 
-**Displaying Residuals and Visualising Residuals**
+**Displaying Residuals and Visualising Residuals**  
 `residuals()` - appends the residuals of the model (difference between  the predicted and actual output) into a list to display to users.  
 
 `plot_residuals()` plots residuals against the independent variable x to see the distribution of residuals.   
