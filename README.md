@@ -215,7 +215,7 @@ Note: this projects uses relative file paths therefore all imports such as of th
 │  ├──[Optimisation logic](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression___Optimisation.pdf)      
 │  └──[__init__](https://github.com/leta199/Linear-Regression/blob/main/model/__init__.py)       
 │
-|├──[model_2]()  
+|├──[model_2](https://github.com/leta199/Linear-Regression/tree/main/model_2)  
 │  ├──[]()      
 │  ├──[]()      
 │  ├──[]()      
