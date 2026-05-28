@@ -213,7 +213,13 @@ Note: this projects uses relative file paths therefore all imports such as of th
 │  ├──[Linear regression.py](https://github.com/leta199/Linear-Regression/blob/main/model/LinearRegression.py)      
 │  ├──[Linear Regression (core model)](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression.ipynb)      
 │  ├──[Optimisation logic](https://github.com/leta199/Linear-Regression/blob/main/model/Linear_Regression___Optimisation.pdf)      
-│  └──[__init__](https://github.com/leta199/Linear-Regression/blob/main/model/__init__.py)     
+│  └──[__init__](https://github.com/leta199/Linear-Regression/blob/main/model/__init__.py)       
+│
+|├──[model_2]()  
+│  ├──[]()      
+│  ├──[]()      
+│  ├──[]()      
+│  └──[]()  
 │    
 |├──[data](https://github.com/leta199/Linear-Regression/tree/main/data)    
 │  ├──[decile to cancel csv](https://github.com/leta199/Linear-Regression/blob/main/data/decile_cancel_to_trade_stock.csv)  
