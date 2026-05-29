@@ -216,7 +216,7 @@ Note: this projects uses relative file paths therefore all imports such as of th
 │  └──[__init__](https://github.com/leta199/Linear-Regression/blob/main/model/__init__.py)       
 │
 |├──[model_2](https://github.com/leta199/Linear-Regression/tree/main/model_2)  
-│  ├──[]()      
+│  ├──[MLR normal eqation (matrix)](https://github.com/leta199/Linear-Regression/blob/main/model_2/Matrix_MLR_normal_equation.pdf)      
 │  ├──[]()      
 │  ├──[]()      
 │  └──[]()  
